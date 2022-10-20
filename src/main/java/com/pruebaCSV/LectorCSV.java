@@ -17,8 +17,8 @@ public class LectorCSV {
             String[] fila;
             while((fila = csvReader.readNext()) != null){
                 System.out.printf(fila[0] + " | " +
-                        fila[1] + " | " +
-                        fila[2] + " | ");
+                                  fila[1] + " | " +
+                                  fila[2] + " | ");
             }
             csvReader.close();
 

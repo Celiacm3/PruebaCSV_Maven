@@ -10,8 +10,8 @@ public class PruebaCSV {
      * @author Celia Chao
      */
     public static void main(String[] args) {
-        //LectorCSV miLector = new LectorCSV();
-        //miLector.leerCSV("./datos/pokemon.csv");
+        LectorCSV miLector = new LectorCSV();
+        miLector.leerCSV("./src/main/resources/datos/pokemon.csv");
 
     }
 }
